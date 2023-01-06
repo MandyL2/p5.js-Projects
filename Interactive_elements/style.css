@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+body {
+	background-color: cyan;
+}
+
+span {
+	display: inline-block;
+	margin: auto;
+}
+
+@keyframes spread {
+	0% {
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#scroll {
+	width: fit-content;
+	margin: auto;
+}
+
+#hello {
+	margin: auto;
+	width: fit-content;
+	/* font-family: usurp, sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+	font-size: 64px;
+	font-family: droog, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+#part1 {
+	background-color: blueviolet;
+	height: 80vh;
+	overflow: hidden;
+}
